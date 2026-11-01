@@ -27,6 +27,8 @@ messages:
       version:
         current_version: "You are running FancyHolograms {primaryColor}v{version}{secondaryColor}."
         version_outdated: "You are running an outdated version of FancyHolograms. Please update to the latest version {primaryColor}v{latestVersion}{secondaryColor}({downloadURL})."
+      reload:
+        success: "Successfully reloaded FancyHolograms configuration and {primaryColor}{count}{secondaryColor} hologram(s)."
       config:
         show:
           settings_header: "FancyHolograms settings:"

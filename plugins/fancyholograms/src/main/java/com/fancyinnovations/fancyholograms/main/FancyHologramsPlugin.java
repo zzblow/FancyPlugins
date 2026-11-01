@@ -12,6 +12,7 @@ import com.fancyinnovations.fancyholograms.commands.conditions.HologramTraitCond
 import com.fancyinnovations.fancyholograms.commands.conditions.HologramTypeCondition;
 import com.fancyinnovations.fancyholograms.commands.fancyholograms.BackupCMD;
 import com.fancyinnovations.fancyholograms.commands.fancyholograms.ConfigCMD;
+import com.fancyinnovations.fancyholograms.commands.fancyholograms.ReloadCMD;
 import com.fancyinnovations.fancyholograms.commands.fancyholograms.StorageCMD;
 import com.fancyinnovations.fancyholograms.commands.fancyholograms.VersionCMD;
 import com.fancyinnovations.fancyholograms.commands.hologram.*;
@@ -323,6 +324,7 @@ public class FancyHologramsPlugin extends JavaPlugin implements FancyHolograms {
 
         // fancyholograms commands
         lamp.register(VersionCMD.INSTANCE);
+        lamp.register(ReloadCMD.INSTANCE);
         lamp.register(ConfigCMD.INSTANCE);
         lamp.register(StorageCMD.INSTANCE);
         lamp.register(BackupCMD.INSTANCE);
